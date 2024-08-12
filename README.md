@@ -20,7 +20,7 @@ Task Management System - это простое приложение для уп�
 
 ```bash
 git clone https://github.com/zhelandovskiy-ka/task_management_system.git
-cd task-management-system
+cd task_management_system
 ```
 
 ### Шаг 2: Соберите и запустите Docker контейнеры
