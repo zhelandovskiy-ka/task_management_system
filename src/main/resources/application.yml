@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: task_management_system
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://db:5432/task_db
+    username: admin
+    password: password
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8002
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui
+token:
+  key: 4T2cLJ+KelPblfAgUnsOMQaNfVkJeaLCUX0jUowG0IEeVETZul2JffZuo6Mur6wcqFzfj0tsCbbjLGb/Dif2f3/GhcimiqXPmryDCar/eEQ=
