@@ -13,7 +13,7 @@ spring:
     password: password
     driver-class-name: org.postgresql.Driver
 server:
-  port: 8002
+  port: 8080
 springdoc:
   api-docs:
     path: /api-docs
